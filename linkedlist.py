@@ -104,7 +104,7 @@ class LinkedList(object):
         current = self.head 
         i = 0
 
-        while current is not None and i < idx:
+        while current and i < idx:
             current = current.next
             i += 1
             

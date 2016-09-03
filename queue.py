@@ -53,9 +53,7 @@ class Queue(object):
             3
         """
 
-        # FIXME
-
-        return self._list.append(item)
+        self._list.append(item)
 
     def peek(self):
         """Return but don't remove the first item in the queue.

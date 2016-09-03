@@ -57,9 +57,16 @@ Trees
 
 
 Given the tree above, in what order would a Breadth First Search (BFS) algorithm visit each node until findingburrito (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.  
--Food, Italian, Indian, Mexican, Lasagna, Pizza, Tikka Masala, Saag, Burrito, Tacos, enchiladas, Thin Crust, Chicago-Style, New York-Style, Sicilian. 
+-Food
+-Italian, Indian, Mexican
+-Italian, Indian, Burrito, Tacos, Enchiladas
+-Italian, Indian
+-Italian, Tikka Masala, Saag
+-Lasagna, Pizza 
+-Lasagna, thin crust, chicago-stype, New York-style, Sicilian
 
 
 Given the tree above, in what order would a Depth First Search (DFS) algorithm visit each node until findingChicago-style (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer. 
 -Food, Italian, Indian, Mexican, Burrito, tacos, enchiladas. 
+
 How is a binary search tree different from other trees? Nodes in Binary Search trees each have a left and right child. Binary search trees also have a ‘rule’ for rearrangement.
