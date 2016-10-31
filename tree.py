@@ -97,7 +97,7 @@ class Tree(object):
         to_visit = [self.root]
 
         while to_visit:
-            node = to_visit.pop()
+            node = to_visit.pop(0)
 
             if node.data == data:
                 return node
